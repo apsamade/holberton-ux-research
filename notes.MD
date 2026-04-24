@@ -144,7 +144,7 @@ None of them tell me:
 
 ### Step 8 — Opening a random playlist and previewing
 
-📷 [SCREENSHOT ZONE 10 — Opened playlist "Deep Focus" playing a song]
+./images/Capture d'écran 2026-04-24 130949.png
 
 I click "Deep Focus". First track = present memory. Too slow.
 
@@ -196,5 +196,74 @@ From the journey simulation, I identified 8 opportunities:
 
 ---
 
+## ✏️ Ideation: Sketching Solutions
+
+After identifying the opportunities, I ran a divergent brainstorming session.
+The goal: generate as many ideas as possible — good, bad, and worst — without judgment.
+
+./images/Capture d'écran 2026-04-24 143634.png
+
+./images/Capture d'écran 2026-04-24 143649.png
+
+From these 15+ ideas, I'll select the most promising ones to prototype in Part 2.
+
+---
+
+## 🎯 Decide: Choosing the Idea to Explore
+
+After presenting my ideas to the group, we discussed the pros and cons of each solution to determine which one best addresses Alex's pain points.
+
+### All Ideas — Pros & Cons
+
+| # | Idea | Pros | Cons |
+|---|------|------|------|
+| 1 | Filter panel (BPM, lyrics, energy) | Direct control, familiar UI pattern | Requires user to know exact values |
+| 2 | Metadata badges on cards | Instant visibility, no extra clicks | Screen clutter, info overload risk |
+| 3 | Hover = 10s preview | Quick audio feedback | Not mobile-friendly, requires patience |
+| 4 | Smart autocomplete | Reduces typing, suggests intent | Depends on NLP accuracy |
+| 5 | Home row "Focus / Study" | Contextual, zero search needed | May feel intrusive / too personalized |
+| 6 | Mood wheel (Energy × Tempo) | Visual, intuitive | Learning curve, unfamiliar UI |
+| 7 | "Study Mode" button | One-click solution | Too opinionated, no customization |
+| 8 | Timer-based playlist | Matches study sessions | Complex to implement |
+| 9 | Voice command | Hands-free | Privacy concerns, noisy environments |
+| 10 | Activity onboarding | Personalized from start | Friction at signup |
+| 11 | Negative search (-lyrics) | Power user feature | Not discoverable |
+| 12 | Smart rescue after 2min | Proactive help | May feel intrusive |
+| 13 | ❌ Spotify picks, no control | — | No user agency |
+| 14 | ❌ 20-question form | — | Too much friction |
+| 15 | ❌ Voice coach between songs | — | Annoying, breaks focus |
+
+### Chosen Solution
+
+./images/Capture d'écran 2026-04-24 144633.png
+
+### Why We Chose This Idea
+
+We decided to combine **#1 Filter Panel** and **#2 Metadata Badges** because together they address Alex's core pain points:
+
+**Direct response to the main frustration:**
+Alex's biggest problem is that playlist titles carry no useful information (tempo, lyrics, energy). Metadata badges solve this instantly — he can scan playlists at a glance without opening each one.
+
+**User control without guessing:**
+The filter panel lets Alex set his preferences upfront (no lyrics, high energy, 120+ BPM) instead of relying on Spotify's algorithm or trial-and-error sampling.
+
+**Complementary solutions:**
+- Badges = passive information (see attributes without acting)
+- Filters = active control (narrow down results intentionally)
+
+Together, they reduce the search time from 5+ minutes to potentially under 2 minutes — matching Alex's goal.
+
+**Feasibility:**
+Both solutions use familiar UI patterns (badges, sliders, checkboxes) that are easy to prototype in Figma and wouldn't require users to learn new interactions.
+
+**Why not the others?**
+- Hover preview (#3) is not mobile-friendly
+- Voice command (#9) has privacy concerns in a dorm setting
+- Study Mode (#7) is too opinionated — Alex wants control, not a "trust us" approach
+- The "worst ideas" (13-15) were intentionally bad to push creative thinking
+
+---
+
 ## 🔜 Next Steps
+
 In Part 2 — Prototype, I'll translate these opportunities into a Figma prototype focused on the most impactful pain points (metadata badges + filter panel).
